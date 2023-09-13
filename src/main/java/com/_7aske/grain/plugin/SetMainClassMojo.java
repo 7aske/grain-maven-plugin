@@ -51,7 +51,7 @@ public class SetMainClassMojo extends AbstractMojo {
         }
 
         GrainClassFinder classFinder = new GrainClassFinder(project, getLog());
-        Set<String> classNames = classFinder.findClasses(c -> !c.startsWith(GRAIN_PACKAGE));
+        Set<String> classNames = classFinder.findClasses(c -> !c.startsWith(GRAIN_PACKAGE + "."));
         getLog().debug("Classes found: " + classNames);
 
         try {
