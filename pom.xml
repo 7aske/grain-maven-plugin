@@ -16,7 +16,6 @@
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <project.scm.id>github</project.scm.id>
     </properties>
 
     <dependencies>
@@ -139,7 +138,7 @@
     </profiles>
 
     <scm>
-        <url>https://github.com/7aske/grain.git</url>
+        <url>ssh://git@github.com:7aske/grain-maven-plugin.git</url>
         <connection>scm:git:${project.scm.url}</connection>
         <developerConnection>scm:git:${project.scm.url}</developerConnection>
         <tag>HEAD</tag>
