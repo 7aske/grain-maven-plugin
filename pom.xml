@@ -136,7 +136,7 @@
     </profiles>
 
     <scm>
-        <url>ssh://git@github.com:7aske/grain-maven-plugin.git</url>
+        <url>ssh://git@github.com/7aske/grain-maven-plugin.git</url>
         <connection>scm:git:${project.scm.url}</connection>
         <developerConnection>scm:git:${project.scm.url}</developerConnection>
         <tag>grain-maven-plugin-1.0.0</tag>
