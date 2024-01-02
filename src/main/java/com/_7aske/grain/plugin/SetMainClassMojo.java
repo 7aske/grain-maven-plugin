@@ -36,7 +36,7 @@ public class SetMainClassMojo extends AbstractMojo {
 
     private static final String APPLICATION_ANNOTATION = "Lcom/_7aske/grain/core/configuration/GrainApplication;";
 
-    private static final String GRAIN_PACKAGE = "com._7aske.grain";
+    private static final String GRAIN_PACKAGE = "com.7aske.grain";
 
     @Parameter(readonly = true, defaultValue = "${project}")
     private MavenProject project;

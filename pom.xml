@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com._7aske.grain</groupId>
+    <groupId>com.7aske.grain</groupId>
     <artifactId>grain-maven-plugin</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
@@ -139,7 +139,7 @@
         <url>ssh://git@github.com/7aske/grain-maven-plugin.git</url>
         <connection>scm:git:${project.scm.url}</connection>
         <developerConnection>scm:git:${project.scm.url}</developerConnection>
-        <tag>grain-maven-plugin-1.0.0</tag>
+        <tag>grain-maven-plugin-${version}</tag>
     </scm>
 
     <distributionManagement>
