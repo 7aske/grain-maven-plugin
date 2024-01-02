@@ -3,7 +3,7 @@
 
     <groupId>com.7aske.grain</groupId>
     <artifactId>grain-maven-plugin</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>maven-plugin</packaging>
     <name>Grain Maven Plugin</name>
     <description>Maven plugin used for building and configuring Grain projects</description>
@@ -139,7 +139,7 @@
         <url>ssh://git@github.com/7aske/grain-maven-plugin.git</url>
         <connection>scm:git:${project.scm.url}</connection>
         <developerConnection>scm:git:${project.scm.url}</developerConnection>
-        <tag>grain-maven-plugin-${version}</tag>
+        <tag>grain-maven-plugin-1.0.1</tag>
     </scm>
 
     <distributionManagement>
